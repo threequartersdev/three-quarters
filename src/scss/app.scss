@@ -100,6 +100,10 @@ img {
         width: 60%;
       }
       .project-1-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -107,6 +111,30 @@ img {
 
         &:hover {
           filter: none;
+        }
+
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
@@ -122,6 +150,10 @@ img {
         width: 60%;
       }
       .project-2-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -129,6 +161,30 @@ img {
 
         &:hover {
           filter: none;
+        }
+
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
@@ -144,6 +200,10 @@ img {
         width: 60%;
       }
       .project-3-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -151,6 +211,30 @@ img {
 
         &:hover {
           filter: none;
+        }
+
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
@@ -166,6 +250,10 @@ img {
         width: 60%;
       }
       .project-4-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -173,6 +261,29 @@ img {
 
         &:hover {
           filter: none;
+        }
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
@@ -188,6 +299,10 @@ img {
         width: 60%;
       }
       .project-5-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -195,6 +310,29 @@ img {
 
         &:hover {
           filter: none;
+        }
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
@@ -210,6 +348,10 @@ img {
         width: 60%;
       }
       .project-6-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -217,6 +359,29 @@ img {
 
         &:hover {
           filter: none;
+        }
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
@@ -232,6 +397,10 @@ img {
         width: 60%;
       }
       .project-7-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 40%;
         filter: grayscale(100%);
@@ -239,6 +408,30 @@ img {
 
         &:hover {
           filter: none;
+        }
+
+        .buttons {
+          width: 80%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding-bottom: 2rem;
+
+          a {
+            text-decoration: none;
+            border: 0.3pt solid $dark-color;
+            text-transform: uppercase !important;
+            font-size: 0.6rem !important;
+            letter-spacing: 2px;
+            padding: 0.7rem 1.3rem;
+            transition: all 0.4s ease-in-out;
+
+            &:hover {
+              background: $dark-color;
+              color: $light-color;
+              transition: all 0.4s ease-in-out;
+            }
+          }
         }
       }
     }
