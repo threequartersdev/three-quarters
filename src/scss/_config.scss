@@ -1,0 +1,12 @@
+// Variables
+$website-width: 1280px;
+$light-color: #ffffff;
+$dark-color: #000000;
+$grey-line: #cfcfcf;
+
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}

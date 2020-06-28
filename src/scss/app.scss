@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import 'config';
+@import 'utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+#header-home {
+  #nav {
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    max-width: 1180px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    #logo {
+      width: 100px;
+      height: auto;
+      margin-left: 2rem;
+    }
+
+    ul {
+      display: flex;
+
+      li {
+        padding: 1rem 2.5rem;
+
+        a {
+          text-decoration: none;
+          color: $dark-color;
+          border-bottom: 1px transparent solid;
+          transition: border-color 0.5s;
+          font-size: 1rem;
+
+          &:hover {
+            border-color: $dark-color;
+          }
+        }
+      }
+    }
+  }
+
+  .header-content {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    h1 {
+      font-size: 5.8rem;
+      line-height: 1.2;
+      letter-spacing: 0.1rem;
+      font-weight: 700;
+    }
+  }
+}
+
+#projects {
+  .container {
+    .selected {
+      border-bottom: 1px solid $grey-line;
+    }
+
+    .other {
+      padding-top: 6rem;
+    }
+    .project-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-1-text {
+        width: 60%;
+      }
+      .project-1-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .project-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-2-text {
+        width: 60%;
+      }
+      .project-2-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .project-3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-3-text {
+        width: 60%;
+      }
+      .project-3-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .project-4 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-4-text {
+        width: 60%;
+      }
+      .project-4-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .project-5 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-5-text {
+        width: 60%;
+      }
+      .project-5-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .project-6 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-6-text {
+        width: 60%;
+      }
+      .project-6-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+    .project-7 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid $grey-line;
+
+      .project-7-text {
+        width: 60%;
+      }
+      .project-7-img {
+        cursor: pointer;
+        width: 40%;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+
+        &:hover {
+          filter: none;
+        }
+      }
+    }
+  }
+}
+
+#about {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  height: 60%;
+  .container {
+    .about-text {
+      h5 {
+        border-bottom: 1px solid $grey-line;
+      }
+
+      h6 {
+        font-size: 1rem;
+      }
+
+      .about-text-h6 {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+      }
+
+      .about-text-p {
+        padding-bottom: 4rem;
+      }
+    }
+    .work-process {
+      .work-process-p {
+        padding-top: 3rem;
+        padding-bottom: 3.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .work-process-p-div {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          p {
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+
+      h5 {
+        border-bottom: 1px solid $grey-line;
+      }
+    }
+
+    .knowledge {
+      .knowledge-p {
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        p {
+          font-weight: 700;
+        }
+      }
+
+      h5 {
+        border-bottom: 1px solid $grey-line;
+      }
+    }
+  }
+}
+
+footer {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: $dark-color;
+  color: $light-color;
+
+  .social {
+    padding-bottom: 2rem;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    h6 {
+      text-align: center;
+      padding-bottom: 0.5rem;
+      color: $grey-line;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      color: $light-color;
+      margin: 0 auto;
+    }
+  }
+
+  .copyright {
+    p {
+      color: $grey-line;
+      font-weight: 300;
+      font-size: 0.7rem;
+    }
+  }
+}
+
+#contact {
+  min-height: 90vh;
+  padding-bottom: 6rem;
+  .container {
+    .contact-text-h5 {
+      border-bottom: 1px solid $grey-line;
+    }
+    .contact-form {
+      width: 800px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      label {
+        display: block;
+        font-size: 1rem;
+        color: rgb(97, 97, 97);
+        font-weight: 300;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        resize: vertical;
+        background: transparent;
+        color: $dark-color;
+        font-weight: 400;
+
+        &:focus {
+          outline: none !important;
+          border: none !important;
+        }
+      }
+
+      input,
+      .message-border {
+        border-bottom: 1px solid $grey-line;
+      }
+
+      p {
+        padding-top: 1rem;
+      }
+
+      button {
+        background: none;
+        border: 0.3pt solid $dark-color;
+        text-transform: uppercase !important;
+        font-size: 0.7rem !important;
+        letter-spacing: 2px;
+        padding: 0.7rem 3rem;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          background: $dark-color;
+          color: $light-color;
+          transition: all 0.4s ease-in-out;
+        }
+      }
+
+      .captcha {
+        padding-top: 1rem;
+      }
+    }
+  }
+}
