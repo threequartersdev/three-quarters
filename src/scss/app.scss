@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 @import 'config';
-@import 'utilities';
 
 * {
   margin: 0;
@@ -124,7 +123,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -174,7 +173,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -224,7 +223,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -273,7 +272,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -322,7 +321,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -371,7 +370,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -421,7 +420,7 @@ img {
             text-decoration: none;
             border: 0.3pt solid $dark-color;
             text-transform: uppercase !important;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             letter-spacing: 2px;
             padding: 0.7rem 1.3rem;
             transition: all 0.4s ease-in-out;
@@ -622,3 +621,5 @@ footer {
     }
   }
 }
+
+@import 'responsive';

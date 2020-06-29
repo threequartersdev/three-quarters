@@ -1,0 +1,50 @@
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 700px;
+  }
+
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 5rem;
+      }
+    }
+  }
+
+  #projects {
+    .project-1-img,
+    .project-2-img,
+    .project-3-img,
+    .project-4-img,
+    .project-5-img,
+    .project-6-img,
+    .project-7-img {
+      .buttons {
+        a {
+          font-size: 0.4rem !important;
+          letter-spacing: 1px;
+          padding: 0.4rem 0.4rem !important;
+        }
+      }
+    }
+  }
+
+  #about {
+    .knowledge {
+      p {
+        padding-right: 2rem;
+      }
+    }
+  }
+
+  #contact {
+    min-height: 60vh;
+    padding-bottom: 2rem;
+  }
+
+  footer {
+    .social {
+      width: 15vw;
+    }
+  }
+}
