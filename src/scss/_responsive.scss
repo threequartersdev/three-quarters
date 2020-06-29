@@ -48,3 +48,85 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 450px;
+  }
+  #header-home {
+    #nav {
+      flex-direction: column;
+      align-items: center;
+
+      #logo {
+        margin-left: 0;
+      }
+    }
+
+    .header-content {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  #projects {
+    .container {
+      .project-1,
+      .project-2,
+      .project-3,
+      .project-4,
+      .project-5,
+      .project-6,
+      .project-7 {
+        flex-direction: column-reverse;
+
+        .project-1-text,
+        .project-2-text,
+        .project-3-text,
+        .project-4-text,
+        .project-5-text,
+        .project-6-text,
+        .project-7-text {
+          width: 100%;
+          padding-bottom: 1rem;
+        }
+
+        .project-1-img,
+        .project-2-img,
+        .project-3-img,
+        .project-4-img,
+        .project-5-img,
+        .project-6-img,
+        .project-7-img {
+          width: 100%;
+          filter: none;
+        }
+      }
+    }
+  }
+
+  #about {
+    .container {
+      .work-process {
+        .work-process-p {
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+
+  #contact {
+    .container {
+      .contact-form {
+        width: 100%;
+      }
+    }
+  }
+
+  footer {
+    .social {
+      width: 25vw;
+    }
+  }
+}
