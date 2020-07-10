@@ -54,23 +54,34 @@ img {
         cursor: pointer;
         z-index: 11;
 
-        &:hover {
-          border-color: $dark-color;
-        }
-
         h6 {
           text-decoration: none;
           color: $dark-color;
-          border-bottom: 1px transparent solid;
-          transition: border-color 0.5s;
           font-size: 1rem;
           font-weight: 300;
           cursor: pointer;
           z-index: 11;
 
-          &:hover {
-            border-color: $dark-color;
-          }
+          // &:hover {
+          //   border-bottom: 1px $dark-color solid;
+          // }
+        }
+
+        h6:after {
+          display: block;
+          content: '';
+          border-bottom: solid 1px $dark-color;
+          transform: scaleX(0);
+          transition: transform 250ms ease-in-out;
+        }
+        h6:hover:after {
+          transform: scaleX(1);
+        }
+        h6.fromRight:after {
+          transform-origin: 100% 50%;
+        }
+        h6.fromLeft:after {
+          transform-origin: 0% 50%;
         }
       }
     }
